@@ -1,0 +1,85 @@
+.form-card {
+  background: white;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+
+  padding: 25px;
+
+  max-width: 900px;
+}
+
+.form-card label {
+  display: block;
+
+  margin-bottom: 7px;
+  margin-top: 16px;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-card input,
+.form-card textarea,
+.form-card select,
+.inline-form select {
+
+  width: 100%;
+
+  padding: 10px 12px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+
+  background: white;
+
+  outline: none;
+}
+
+.form-card input:focus,
+.form-card textarea:focus,
+.form-card select:focus {
+
+  border-color: #475f7b;
+}
+
+.form-card textarea {
+  resize: vertical;
+}
+
+.form-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 0 18px;
+}
+
+.form-card .primary-btn {
+  margin-top: 22px;
+}
+
+.inline-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  min-width: 250px;
+}
+
+.inline-form select {
+  flex: 1;
+}
+
+@media (max-width: 700px) {
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .inline-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
