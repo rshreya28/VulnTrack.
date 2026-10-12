@@ -133,7 +133,7 @@ Use the following demo accounts to explore the different role-based dashboards.
 - **Password:admin123
 
 ### Analyst
-- **Email:analyst@vultrack.com
+- **Email:analyst@vulntrack.com
 - **Password:analyst123
 
 ### Developer
